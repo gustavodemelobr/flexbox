@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    background-color: yellow;
+    height: 500px;
+    flex-direction: row; /* indica a direção do eixo principal do flex */
+    justify-content: flex-start; /* eixo principal*/
+    align-items: scretch; /* eixo perpendicular */
+
+}
+
+.flex-item {
+    background-color: red;
+}
